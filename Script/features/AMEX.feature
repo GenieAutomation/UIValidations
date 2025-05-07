@@ -9,7 +9,6 @@ Comments: @author-Ramya
     And I click on the element with locator "cartesParticuliersLink" from the page "amex"
     And I wait for the element with locator "carteslauneText" from page "amex"
     And I scrollToElement with locator "carteGoldAmericannbspLink" from page "amex"
-    #And I click the locator "acceptCookiesPopUp" from the page "amex" if it is "EXIST"
     And I wait for the page to finish loading with locator "carteGoldAmericannbspLink" from the page "amex"
     And I click on the element with locator "carteGoldAmericannbspLink" from the page "amex"
     Then I validateElementState with locator "elleAssureetvousRassureText" from page "amex" with validation type "VISIBLE"
