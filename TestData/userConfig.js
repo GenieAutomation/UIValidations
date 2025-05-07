@@ -36,7 +36,6 @@ const config = {
 	 * Example: '"@Tag1 or @Tag2"' - scenarios with either tag will be executed.
 	 * Example: '' means no filtering, and all scenarios will be executed.
 	 */
-	//tags: '"@Collections or @BatchTransactionImport or @BatchTransactionImportReview or @Connectors or @DocumentTemplates or @Originations or @Exports or @Originations or @PublicAPISettings or @ServiceTicketTypes or @WorkdaySchedules"',
 	tags: '"@AMEX"',
 	/**
 	 * @property {number} multiThreadCount
