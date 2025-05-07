@@ -1,0 +1,40 @@
+const locators = {
+    cartesParticuliersLink: {"role":"link","name":"Cartes Particuliers"},
+    carteslauneText:'//span[text()="Cartes à la une"]',
+    acceptCookiesPopUp:'//button[text()="Tout Accepter"]',
+    carteGoldAmericannbspLink: {"role":"link","name":"Carte Gold American&nbsp;"},
+    cotisationGratuitela1reText: {"text":"Cotisation Gratuite la 1ère"},
+    enSavoirPlusLink: {"role":"link","name":"En savoir plus"},
+    elleAssureetvousRassureText: {"text":"Elle Assure et vous Rassure","exact":true},
+    pdpsiderailwrapper: '#pdp-side-railwrapper',
+    goldAmericanExpressText: '//h4[text()="CARTE GOLD AMERICAN EXPRESS"]',
+    demandezVotreCarteLink: '//a[@href="https://www.americanexpress.com/fr/3534?intlink=fr-amex-cardshop-details-apply-GoldCardAmericanExpress-siderail"]',
+    souscrivezenquelquesminutesText: {"text":"Souscrivez en quelques minutes"},
+    vosInformationsPersonnellesHeading: {"role":"heading","name":"Vos informations personnelles"},
+    cochezcettecasesivotreText: {"text":"Cochez cette case si votre"},
+    lieuDeNaissanceTextbox: {"role":"textbox","name":"Lieu de naissance"},
+    nTypeEtNomDeLaVoieDeTextbox: {"role":"textbox","name":"N°, type et nom de la voie de"},
+    dpartementrgiondeText: {"text":"Département/région de"},
+    votrecodepostalobligatoireText: {"text":"Votre code postal obligatoire"},
+    mercideprciservotreText: {"text":"Merci de préciser votre"},
+    dpartementDeNaissanceLabel: {"label":"Département de naissance"},
+    codePostalTextbox: {"role":"textbox","name":"Code postal"},
+    villeTextbox: {"role":"textbox","name":"Ville"},
+    statutRsidentielLabel: {"label":"Statut résidentiel"},
+    goldCardEnSaviourPlusLink: '//a[contains(@href,carte-de-paiement/gold-card-americanexpress/?linknav=fr-amex-cardshop-allcards-learn-GoldCardAmericanExpress")]',
+    homePageCartesParticuliersText:'//p[text()="Cartes Particuliers" and contains(@class,"dls-gray")]',
+    msRadioButton: '//span[text()="Mme"]',
+    radioButtonValidation: {"text": "Merci de préciser votre", exact: true},
+    MmeText: {"text":"Mme","exact":true},
+  prnomTextbox: {"role":"textbox","name":"Prénom", exact: true},
+  nomTextbox: {"role":"textbox","name":"Nom", exact: true},
+  dateDeNaissanceJJMMAAAATextbox: {"role":"textbox","name":"Date de naissance (JJ/MM/AAAA)"},
+  adresseEmailTextbox: {"role":"textbox","name":"Adresse e-mail"},
+  numroDeTlphonePortableTextbox: {"role":"textbox","name":"Numéro de téléphone portable"},
+  sauvegarderEtContinuerButton: {"role":"button","name":"Sauvegarder et Continuer"},
+  };
+
+  
+  module.exports = {
+    locators
+  };

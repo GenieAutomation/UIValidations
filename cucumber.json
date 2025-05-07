@@ -1,0 +1,47 @@
+{
+    "devDependencies": {
+        "@cucumber/cucumber": "^latest-version"
+      },
+    "default": {
+   
+        "paths": [
+   
+             "Script/features/*/*.feature"
+   
+        ],
+   
+        "require": [
+   
+            "Script/pageDefinition/*.js"
+   
+        ],
+   
+        "formatOptions": {
+   
+            "snippetInterface": "async-await"
+         
+        },
+   
+        "format": [
+   
+            [
+   
+                "html",
+                "./Reports/cucumber-report.html"
+               
+   
+            ],
+   
+            "summary",
+   
+            "progress-bar",
+            "json:./Reports/cucumber-report.json"
+   
+        ],
+   
+        "type": "module"
+   
+   
+    }
+   
+  }
