@@ -2,7 +2,6 @@ Feature: AMEX Validations
 
 @AMEX
 Scenario: AMEX
-Comments: @author-Ramya
     Given I Launch the application
     Then I validateElementState with locator "homePageCartesParticuliersText" from page "amex" with validation type "VISIBLE"
     And I click on the element with locator "acceptCookiesPopUp" from the page "amex"
